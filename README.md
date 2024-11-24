@@ -55,10 +55,12 @@ Open the Raspberry Pi Imager.
 2. Select your MicroSD card as the storage target.
 3. Then apply customization to enable ssh.
    ![image](https://github.com/user-attachments/assets/57901bbd-8fae-46c3-86e6-3483c855c076)
-4. Enable SSH for this tab
-   ![image](https://github.com/user-attachments/assets/bc8736d2-a193-4344-a824-f6450c36e8a2)
-5. Click "Write" to begin writing the OS to the card.
-6. Once complete, remove the MicroSD card from the reader.
+   
+5. Enable SSH for this tab
+   ![image](https://github.com/user-attachments/assets/0c8a1358-74a8-4134-88e7-d4993b533977)
+
+6. Click "Write" to begin writing the OS to the card.
+7. Once complete, remove the MicroSD card from the reader.
 
 ## Initial Raspberry Pi Setup
 
@@ -93,7 +95,7 @@ Download and install XCTU from Digi’s website on your computer.
 - **Ensure both XBee modules are on the same PAN ID and use the same communication settings (e.g., baud rate, channel).**
 - **Set SH and SL of Coordinator as the DH and DL of the edge device.**
 - **CH, ID, and BD of all the routers and coordinators are the same.**
-- Make sure that the highlighted ones arethe  same for communication. These are to be used for the **different noise measurement units** that sent the data to the drone. These are configured as edge devices. There can be multiple edge devices, but only one coordinator.
+- Make sure that the highlighted ones are the  same for communication. These are to be used for the **different noise measurement units** that sent the data to the drone. These are configured as edge devices. There can be multiple edge devices, but only one coordinator.
 ![image](https://github.com/user-attachments/assets/73992c8f-bcba-4620-a706-69f5a452cedf)
 
 ![image](https://github.com/user-attachments/assets/4c38aa70-b382-4aed-9580-e622dd08cfee)
