@@ -3,40 +3,6 @@ Communication between Pixhawk and Raspberry Pi using XBee
 
 How to setup guide: XBee, RPi, Pixhawk
 
-[Setting Up Raspberry Pi 1](#_Toc174968490)
-
-[Install Raspberry Pi OS 1](#_Toc174968491)
-
-[Write Raspberry Pi OS to the MicroSD Card: 1](#_Toc174968492)
-
-[Initial Raspberry Pi Setup 1](#_Toc174968493)
-
-[Set Up XBee Communication 1](#_Toc174968494)
-
-[Configure XBee Modules Using XCTU 1](#_Toc174968495)
-
-[Sending Test data 3](#_Toc174968496)
-
-[Enable UART on RPi 3](#_Toc174968497)
-
-[Python Scripts 4](#_Toc174968498)
-
-[For the first time, do these: 4](#_Toc174968499)
-
-[Check for mavproxy installation 4](#_Toc174968500)
-
-[Forward Data to QGroundControl: 4](#_Toc174968501)
-
-[Python script just to receive data to see everything is working fine 5](#_Toc174968502)
-
-[Python code for receiving and forwarding the data to Pixhawk 6](#_Toc174968503)
-
-[Troubleshooting 9](#_Toc174968504)
-
-[mavproxy.py: command not found 9](#_Toc174968505)
-
-[Permission Issues: 9](#_Toc174968506)
-
 # Setting Up Raspberry Pi
 
 ## Install Raspberry Pi OS
@@ -53,14 +19,12 @@ Open the Raspberry Pi Imager.
 
 1. Choose “Raspberry Pi OS” from the operating system options.
 2. Select your MicroSD card as the storage target.
-3. Then apply customization to enable ssh.
-   ![image](https://github.com/user-attachments/assets/57901bbd-8fae-46c3-86e6-3483c855c076)
-   
-5. Enable SSH for this tab
-   ![image](https://github.com/user-attachments/assets/0c8a1358-74a8-4134-88e7-d4993b533977)
-
-6. Click "Write" to begin writing the OS to the card.
-7. Once complete, remove the MicroSD card from the reader.
+3. Then apply customization to enable ssh.      
+![image](https://github.com/user-attachments/assets/57901bbd-8fae-46c3-86e6-3483c855c076)
+4. Enable SSH for this tab
+![image](https://github.com/user-attachments/assets/0c8a1358-74a8-4134-88e7-d4993b533977)
+5. Click "Write" to begin writing the OS to the card.
+6. Once complete, remove the MicroSD card from the reader.
 
 ## Initial Raspberry Pi Setup
 
